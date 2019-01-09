@@ -26,3 +26,9 @@ function driversByName(drivers) {
     return a.localeCompare(b);
   })
 }
+
+function totalRevenue(drivers) {
+  const reducer= function (accumulator, currentValue) {
+    return accumulator+currentValue
+  }
+}
