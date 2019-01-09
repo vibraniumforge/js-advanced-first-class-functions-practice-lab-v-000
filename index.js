@@ -23,7 +23,7 @@ function driversByRevenue(drivers) {
 
 function driversByName(drivers) {
   return drivers.sort(function(a,b) {
-    return a > b;
+    return a < b;
   })
 }
 
