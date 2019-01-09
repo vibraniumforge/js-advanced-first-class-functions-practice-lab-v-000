@@ -37,5 +37,5 @@ function averageRevenue(drivers) {
   const reducer= function (accumulator, currentValue) {
     return accumulator+currentValue
   }
-  return reducer/drivers.length
+  return (reducer/drivers.length);
 }
