@@ -20,3 +20,9 @@ function driversByRevenue(drivers) {
   })
   return newDrivers;
 }
+
+function driversByName(drivers) {
+  return drivers.sort(function(a,b) {
+    return a.localeCompare(b);
+  })
+}
