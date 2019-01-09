@@ -32,6 +32,7 @@ function totalRevenue(drivers) {
   const reducer= function (accumulator, currentValue) {
     return accumulator.revenue + currentValue
   }
+  return reducer
 }
 
 function averageRevenue(drivers) {
