@@ -10,6 +10,9 @@ function logDriversByHometown(drivers, hometown) {
     if (driver.hometown===hometown) {
       console.log(driver.name)
     }
-
   })
+}
+
+function driversByRevenue() {
+  
 }
